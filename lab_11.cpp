@@ -49,45 +49,6 @@ class ValidCustom: public IValid
     }
 };
 
-//
-//class Standart: public IValid, public Product 
-//{
-//    public:
-//    Standart (int _price) : Product (_price) {}    
-//    bool IsValid() override
-//    {
-//        if (price > 0)
-//        {
-//            return true;
-//        }
-//        return false;
-//    }
-//};
-//
-//class Custom: public IValid, public Product
-//{
-//
-//    public:
-//    Custom (int _price) : Product (_price) {}
-//    bool isCustomerService ()
-//    {
-//        if (price > 100000)
-//        {           
-//            return true;
-//        }
-//        return false;
-//    }
-//
-//    bool IsValid() override
-//    {
-//        if ((this->isCustomerService()) == true)
-//        {
-//            return true;
-//        }
-//        return false;
-//    }
-//};
-
 int main()
 {
     Product product1 (200200);
