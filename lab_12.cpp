@@ -41,7 +41,7 @@ class Url
     string url;
 
     public:
-    Url (string _url = 0)
+    Url (string _url = "")
     {
         url = _url;
     }
@@ -58,7 +58,7 @@ class Account
     int age;
 
     public:
-    Account(string _name, int _age)
+    Account(string _name = "", int _age = 0)
     {
         name = _name;
         age = _age;
